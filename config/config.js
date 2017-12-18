@@ -3,8 +3,9 @@ const ENV = process.env.NODE_ENV === 'production' ? 'prod' : 'dev'
 const appConfig = {
     'env': ENV,
     'server': {
+        'protocol': 'http',
         'domain': 'localhost',
-        'port': 80
+        'port': ''
     },
     'recaptcha': {
         'enable_recaptcha': true,

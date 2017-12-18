@@ -5,7 +5,6 @@ import {
     Route,
     Switch
 } from 'react-router-dom'
-import './style.css';
 import Aricle from './component/aricle';
 import Book from './component/book';
 import BookMp3 from './component/bookMp3';
