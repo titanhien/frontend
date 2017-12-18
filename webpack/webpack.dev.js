@@ -1,7 +1,7 @@
 // Webpack Local Config
 var path = require('path')
 var webpack = require('webpack')
-var appConfig = require('../config')
+var appConfig = require('../config/config')
 var HappyPack = require('happypack')
 
 var webpackConfig = {
