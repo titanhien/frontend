@@ -5,7 +5,7 @@ const appConfig = {
     'server': {
         'protocol': 'http',
         'domain': 'localhost',
-        'port': ''
+        'port': '3000'
     },
     'recaptcha': {
         'enable_recaptcha': true,

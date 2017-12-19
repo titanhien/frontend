@@ -6,6 +6,11 @@ var HappyPack = require('happypack')
 
 var webpackConfig = {
   entry: {
+    app: [
+      `webpack-hot-middleware/client?path=${appConfig.server.protocol}://${appConfig.server.domain}:${appConfig.server.port}/__webpack_hmr&reload=true&timeout=20000`,
+      'babel-polyfill',
+      './src/index.js'
+    ],
     api: [
       `webpack-hot-middleware/client?path=${appConfig.server.protocol}://${appConfig.server.domain}:${appConfig.server.port}/__webpack_hmr&reload=true&timeout=20000`,
       'babel-polyfill',
@@ -48,6 +53,12 @@ var webpackConfig = {
         // Run json through the json-loader
         test: /\.json?$/,
         loader: 'json-loader'
+      },
+      {
+        test: /\.svg$/,
+        use: {
+          loader: 'svg-loader',
+        }
       }
     ]
   },
