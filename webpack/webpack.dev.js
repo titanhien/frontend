@@ -4,15 +4,17 @@ var webpack = require('webpack')
 var appConfig = require('../config/config')
 var HappyPack = require('happypack')
 
+const webpackMiddleware = `webpack-hot-middleware/client?path=${appConfig.server.protocol}://${appConfig.server.domain}:${appConfig.server.port}/__webpack_hmr&reload=true&timeout=20000`
+
 var webpackConfig = {
   entry: {
     app: [
-      `webpack-hot-middleware/client?path=${appConfig.server.protocol}://${appConfig.server.domain}:${appConfig.server.port}/__webpack_hmr&reload=true&timeout=20000`,
+      webpackMiddleware,
       'babel-polyfill',
       './src/index.js'
     ],
     api: [
-      `webpack-hot-middleware/client?path=${appConfig.server.protocol}://${appConfig.server.domain}:${appConfig.server.port}/__webpack_hmr&reload=true&timeout=20000`,
+      webpackMiddleware,
       'babel-polyfill',
       './src/app/api/render.js'
     ]
@@ -39,6 +41,18 @@ var webpackConfig = {
         loader: 'style-loader!css-loader',
         include: [
           path.resolve(__dirname, '../public/css')
+        ]
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: "style-loader" // creates style nodes from JS strings
+          }, {
+            loader: "css-loader" // translates CSS into CommonJS
+          }, {
+            loader: "sass-loader" // compiles Sass to CSS
+          }
         ]
       },
       {
