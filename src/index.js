@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Api from './app/api/component/';
-import Home from './app/home/';
+import Home from './app/home/component';
 import DefaultLayout from './layout/default';
 import NotFound from './layout/notFound';
 import registerServiceWorker from './registerServiceWorker';
