@@ -435,7 +435,7 @@ class defaultLayout extends Component {
                   <p>Sidebar Mini</p>
                   <div className="togglebutton switch-sidebar-mini">
                     <label>
-                      <input type="checkbox" unchecked /><span className="toggle" />
+                      <input type="checkbox" unchecked="" />
                     </label>
                   </div>
                   <div className="clearfix" />
@@ -446,7 +446,7 @@ class defaultLayout extends Component {
                   <p>Sidebar Image</p>
                   <div className="togglebutton switch-sidebar-image">
                     <label>
-                      <input type="checkbox" defaultChecked /><span className="toggle" />
+                      <input type="checkbox" defaultChecked />
                     </label>
                   </div>
                   <div className="clearfix" />
@@ -455,36 +455,36 @@ class defaultLayout extends Component {
               <li className="header-title">Images</li>
               <li className="active">
                 <a className="img-holder switch-trigger" href="javascript:void(0)">
-                  <img src="/assets/img/sidebar-1.jpg" alt />
+                  <img src="../assets/img/sidebar-1.jpg" alt="" />
                 </a>
               </li>
               <li>
                 <a className="img-holder switch-trigger" href="javascript:void(0)">
-                  <img src="/assets/img/sidebar-2.jpg" alt />
+                  <img src="../assets/img/sidebar-2.jpg" alt="" />
                 </a>
               </li>
               <li>
                 <a className="img-holder switch-trigger" href="javascript:void(0)">
-                  <img src="/assets/img/sidebar-3.jpg" alt />
+                  <img src="../assets/img/sidebar-3.jpg" alt="" />
                 </a>
               </li>
               <li>
                 <a className="img-holder switch-trigger" href="javascript:void(0)">
-                  <img src="/assets/img/sidebar-4.jpg" alt />
+                  <img src="../assets/img/sidebar-4.jpg" alt="" />
                 </a>
               </li>
               <li className="button-container">
-                <div className>
+                <div className="">
                   <a href="http://www.creative-tim.com/product/material-dashboard-pro" target="_blank" className="btn btn-rose btn-block">Buy Now</a>
                 </div>
-                <div className>
+                <div className="">
                   <a href="http://www.creative-tim.com/product/material-dashboard" target="_blank" className="btn btn-info btn-block">Get Free Demo</a>
                 </div>
               </li>
               <li className="header-title">Thank you for 95 shares!</li>
               <li className="button-container">
-                <button id="twitter" className="btn btn-social btn-twitter btn-round sharrre"><i className="fa fa-twitter" /> · 45</button>
-                <button id="facebook" className="btn btn-social btn-facebook btn-round sharrre"><i className="fa fa-facebook-square"> ·</i>50</button>
+                <button id="twitter" className="btn btn-social btn-twitter btn-round"><i className="fa fa-twitter" /> · 45</button>
+                <button id="facebook" className="btn btn-social btn-facebook btn-round"><i className="fa fa-facebook-square"> ·</i>50</button>
               </li>
             </ul>
           </div>
