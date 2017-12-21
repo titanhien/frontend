@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Switch} from 'react-router-dom'
+import registerServiceWorker from './registerServiceWorker';
 import Api from './app/api/component/';
 import Home from './app/home/component';
 import Error from './app/error/component';
-import registerServiceWorker from './registerServiceWorker';
 
 class App extends React.Component {
     render () {
