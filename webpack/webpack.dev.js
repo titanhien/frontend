@@ -12,11 +12,6 @@ var webpackConfig = {
       webpackMiddleware,
       'babel-polyfill',
       './src/index.js'
-    ],
-    api: [
-      webpackMiddleware,
-      'babel-polyfill',
-      './src/app/api/render.js'
     ]
   },
   output: {
