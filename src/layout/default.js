@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class defaultLayout extends Component {
+class DefaultLayout extends Component {
   render() {
     return (
       <div>
@@ -494,4 +494,4 @@ class defaultLayout extends Component {
   }
 }
 
-export default defaultLayout;
+export default DefaultLayout;

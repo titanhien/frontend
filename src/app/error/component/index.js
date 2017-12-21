@@ -1,6 +1,6 @@
 import React from 'react';
 import DefaultLayout from '../../../layout/default';
-import AppRoute from '../../../common/appRoute'
+import AppRoute from '../../../common/appRoute';
 import NotFound from './404';
 
 let Data = {
