@@ -12,11 +12,11 @@ class DefaultLayout extends Component {
               Tip 3: you can change the color of the sidebar with data-background-color="white | black"
           */}
             <div className="logo">
-              <a href="http://www.creative-tim.com/" className="simple-text logo-mini">
+              <a href="/" className="simple-text logo-mini">
                 CT
               </a>
-              <a href="http://www.creative-tim.com/" className="simple-text logo-normal">
-                Creative Tim
+              <a href="/" className="simple-text logo-normal">
+                PHATAM
               </a>
             </div>
             <div className="sidebar-wrapper ps-container ps-theme-default" data-ps-id="312b285e-4908-2439-025a-c0ce6f4bd43b">

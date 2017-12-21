@@ -12,12 +12,12 @@ class Top extends Component {
                             <span className="icon-bar" />
                             <span className="icon-bar" />
                         </button>
-                        <a className="navbar-brand" href=" #pablo ">Material Dashboard Pro</a>
+                        <a className="navbar-brand" href="/">PHATAM</a>
                     </div>
                     <div className="collapse navbar-collapse">
                         <ul className="nav navbar-nav navbar-right">
                             <li>
-                                <a href="../dashboard.html">
+                                <a href="/">
                                     <i className="material-icons">dashboard</i> Home
                                 </a>
                             </li>

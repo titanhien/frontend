@@ -9,29 +9,29 @@ class Footer extends Component {
                         <ul>
                             <li>
                                 <a href="#">
-                                    Home
+                                    Book
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Company
+                                    Book Mp3
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Portofolio
+                                    Music
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Blog
+                                    Chua Viet
                                 </a>
                             </li>
                         </ul>
                     </nav>
                     <p className="copyright pull-right">
                         ©
-                        <a href="http://www.creative-tim.com/"> Creative Tim </a>, made with love for a better web
+                        <a href="/"> Copyright 2013 - 2017 PHATAM.ORG </a>, Chịu trách nhiệm nội dung: Thị Đức bienman0811@yahoo.com
                     </p>
                 </div>
             </footer>
