@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../../logo.svg';
 import '../style.scss';
 
-class aricle extends Component {
+class Aricle extends Component {
     render() {
         return (
             <div className="App">
@@ -18,4 +18,4 @@ class aricle extends Component {
     }
 }
 
-export default aricle;
+export default Aricle;

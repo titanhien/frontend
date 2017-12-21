@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../../logo.svg';
 import '../style.scss';
 
-class dictionary extends Component {
+class Dictionary extends Component {
     render() {
         return (
             <div className="App">
@@ -18,4 +18,4 @@ class dictionary extends Component {
     }
 }
 
-export default dictionary;
+export default Dictionary;

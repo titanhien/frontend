@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../../logo.svg';
 import '../style.scss';
 
-class bookMp3 extends Component {
+class BookMp3 extends Component {
     render() {
         return (
             <div className="App">
@@ -18,4 +18,4 @@ class bookMp3 extends Component {
     }
 }
 
-export default bookMp3;
+export default BookMp3;

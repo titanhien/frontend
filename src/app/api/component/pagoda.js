@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../../logo.svg';
 import '../style.scss';
 
-class pagoda extends Component {
+class Pagoda extends Component {
     render() {
         return (
             <div className="App">
@@ -18,4 +18,4 @@ class pagoda extends Component {
     }
 }
 
-export default pagoda;
+export default Pagoda;
